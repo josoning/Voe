@@ -1,0 +1,12 @@
+[package]
+name = "voe-types"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Pure data types and error definitions shared across VOE crates"
+
+[dependencies]
+thiserror = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }

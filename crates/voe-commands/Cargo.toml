@@ -1,0 +1,17 @@
+[package]
+name = "voe-commands"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Command system and built-in commands for Voe"
+
+[dependencies]
+voe-types = { workspace = true }
+voe-mask = { workspace = true }
+voe-storage-api = { workspace = true }
+voe-repo-api = { workspace = true }
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+clap = { workspace = true }
+owo-colors = { workspace = true }
+tracing = { workspace = true }

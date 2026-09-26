@@ -1,0 +1,16 @@
+[package]
+name = "voe-repo-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Repository domain traits and models (branch, commit, config, snapshot)"
+
+[dependencies]
+voe-types = { workspace = true }
+voe-mask = { workspace = true }
+voe-storage-api = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }
+regex = { workspace = true }
+clap = { workspace = true }

@@ -1,0 +1,18 @@
+[package]
+name = "voe-shell"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Unified interactive shell framework for Voe — provides full-screen REPL, colored I/O, and extensible command registration"
+
+[dependencies]
+voe-types = { workspace = true }
+voe-repo-api = { workspace = true }
+voe-commands = { workspace = true }
+clap = { workspace = true }
+owo-colors = { workspace = true }
+crossterm = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+reedline = "0.52.0"
+shlex = "2.0.1"

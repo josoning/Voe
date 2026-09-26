@@ -1,0 +1,17 @@
+[package]
+name = "voe-plugin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Plugin system for Voe"
+
+[features]
+default = []
+dynamic-plugins = ["dep:libloading"]
+
+[dependencies]
+voe-types = { workspace = true }
+voe-repo-api = { workspace = true }
+thiserror = { workspace = true }
+libloading = { workspace = true, optional = true }
+once_cell = { workspace = true }
